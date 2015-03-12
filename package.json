@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dataweather/dw-api/issues"
   },
-  "homepage": "https://github.com/dataweather/dw-api"
+  "homepage": "https://github.com/dataweather/dw-api",
+  "dependencies": {
+    "hapi": "^8.3.1"
+  }
 }
