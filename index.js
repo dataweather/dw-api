@@ -9,7 +9,7 @@ server.connection({
 
 server.route({
   method: 'GET',
-  path: '/hello',
+  path: '/',
   handler: function (request, reply) {
     reply('Data Weather!');
   }
