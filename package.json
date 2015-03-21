@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dataweather/dw-api",
   "dependencies": {
+    "good": "^5.1.2",
     "hapi": "^8.3.1"
   }
 }
