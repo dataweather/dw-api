@@ -1,4 +1,5 @@
 var Hapi = require('hapi');
+var Good = require('good');
 
 var server = new Hapi.Server();
 
@@ -22,5 +23,9 @@ server.route({
       reply('Hello, ' + encodeURIComponent(request.params.name) + '!');
   }
 });
+
+server.register({
+  register: Good,
+})
 
 server.start();
